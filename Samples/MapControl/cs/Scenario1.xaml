@@ -60,6 +60,7 @@
                 <TextBlock Style="{StaticResource ScenarioDescriptionTextStyle}" TextWrapping="Wrap" >
                     MapControl basics and configuring the map
                 </TextBlock>   
+                <Button Content="Click to reproduce crash" Click="ButtonBase_OnClick"/>
             </StackPanel>
                 <Grid Grid.Row="1">
                 <ScrollViewer>
